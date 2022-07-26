@@ -8,7 +8,7 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 
-app.listen(process.env.port || 8080, () => {
+app.listen(process.env.PORT || 8080, () => {
     console.log("port is ready")
 })
 
